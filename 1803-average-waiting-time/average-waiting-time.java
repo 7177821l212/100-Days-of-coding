@@ -1,5 +1,6 @@
 class Solution {
     public double averageWaitingTime(int[][] customers) {
+       //leetcode solution
         int currentTime = 0;
         long totalwaitTime = 0;  // Use long to avoid overflow
         
